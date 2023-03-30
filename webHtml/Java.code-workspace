@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../Java"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../web"
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"Java/lib"
+		],
+		"liveServer.settings.multiRootWorkspaceName": "Portfolio"
+	}
+}
