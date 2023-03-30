@@ -15,6 +15,12 @@ body{
     color:#2990d0;
     width: 100%;
     font-size: 20px;
+    height: 100%;
+}
+#wrap{
+    height: auto;
+  min-height: 100%;
+  padding-bottom: 100px;
 }
 a{
     text-decoration: none;
@@ -59,34 +65,65 @@ header > .logo > img{
 }
 .contents{
     width: 100%;
+    height: 600px;
+    color:white;
+}
+.text-two{
+    top:35%;
+    left: 59%;
+    position: absolute;
+    font-size: 60px;
+    color: white;
+}
+.text-one{
+    top: 28%;
+    position: absolute;
+    left: 60%;
+    font-size: 70px;
+    color: white;
+}
+.text-three{
+    top: 50%;
+    position: absolute;
+    left: 60%;
+    font-size: 40px;
+    color: white;
+}
+h1{
+    margin: 10px;
+}
+.contents > .imgs > img{
+    padding: 0;
+    margin: 0;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    vertical-align: middle;
 }
 .left{
     width : 50%;
-    height: 400px;
-    float: left;
-    background-color: crimson;
+    height: 500px;
+    background-color: black;
 }
 .left > div{
     text-align: center;
 }
 .right{
     width: 50%;
-    height: 400px;
-    float: right;
-    background-color: crimson;
+    height: 500px;
+    background-color: black;
 }
 .right > div{
     text-align: center;
-}
-.seol{
-
 }
 button{
     
 }
 footer{
+    bottom: 0;
     width: 100%;
     height: 100px;
+    position : fixed;
     background-color: darkgray;
 }
 footer > div{
