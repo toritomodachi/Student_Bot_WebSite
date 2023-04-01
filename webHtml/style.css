@@ -11,15 +11,14 @@
     font-family:'GyeonggiTitleM';
 }
 body{
-    background-color:#fff;
+    background-color:#ffffff;
     color:#2990d0;
-    width: 100%;
+    max-width: 1920px;
     font-size: 25px;
-    height: 100%;
 }
 .container{
-    width: 100%;
-    height: 6000px;
+    width: 1920px;
+    height: 1080px;
     margin: auto;
     padding: auto;
     resize: none;
@@ -36,7 +35,8 @@ header{
     justify-content: space-between;
     align-items: center;
     white-space: nowrap; 
-    position: fixed;
+    position:sticky;
+    top:0;
     z-index: 4;   
 }
 header nav{
@@ -54,96 +54,88 @@ header nav{
     height: 100%;
     display:flex;
     white-space: nowrap;
-    
 }
 .mainMenu > a{
-    width: 40%;
+    width: 50%;
     padding: 40px 40px;
     text-align: center;
     color:#2990d0;
 }
 .mainMenu > a:hover{
-    color: #0c527d;
+    color: #000000;
+    font-size: 28px;
 }
 .contents{
-    padding-top: 100px;
-    width: 100%;
-    height: 850px;
-    color:white;    
-    display: flex;
-    justify-content:space-between ;
-    object-fit: none;
-    background-color: #2990d0;
+    width: 1920px;
+    height: 1000px;
 }
-.contents span{
-    z-index: 2;
+.jb-box { 
+    width: 100%; 
+    height: 600px; 
+    margin: 0px auto; 
+    position: relative; 
+    float: left;
 }
-.text-two{
-    top:35%;
-    left: 59%;
-    position: absolute;
+.jb-text { 
+    position: absolute; 
+    top: 0; 
+    width: 100%; 
+}
+.jb-text img { 
+    width: 1920px;
+    height: 600px;
+    margin-top: 0; 
+    float: right;
+    color: #ffffff; 
+}
+.jb-texts h1{ 
+    position: absolute; 
+    top: 200px; 
+    width: 80%; 
+    text-align: right;
+    color: white;
+    font-size: 100px;
+}
+.jb-texts h3{ 
+    position: absolute; 
+    top: 140px; 
+    width: 88%; 
+    text-align: right;
+    color: white;
     font-size: 60px;
-    color: white;
-    white-space: nowrap;
 }
-.text-one{
-    top: 28%;
-    position: absolute;
-    left: 60%;
-    font-size: 70px;
+.jb-texts h4{ 
+    position: absolute; 
+    top: 305px; 
+    width: 77%; 
+    text-align: right;
     color: white;
-    white-space: nowrap;
-}
-.text-three{
-    top: 47%;
-    position: absolute;
-    left: 60%;
     font-size: 40px;
-    color: white;
-    white-space: nowrap;
 }
-
-h1{
-    margin: 10px;
+.banner > div{
+    height: 400px;
 }
-.contents > img{
-    height: 850px;
-    position: absolute;
-    width: 100%;
-    z-index: 2  ;
-}
-.contents > video{
-    width: 100%;
-    height: 700px;  
-    margin:auto;
-    object-fit:fill;
-    background-color:#2990d0;
+.banner > div > h1{
+    padding-top: 750px;
+    font-size: 60px;
+    color: black;
 }
 footer{
-    bottom: 0;
-    width: 100%;
+    width: 1920px;
     height: 100px;
     background-color: darkgray;
-    white-space: nowrap;
 }
-footer > div{
+.footer-logo > a > img{
+    width: 90px;
+    height: 90px;
     float: left;
-    height: 100px;
-}
-footer > .footer-logo > img{
-    width: 100px;
-    height: 100px;
-}
-.footer-logo{
-    padding-left: 300px;
-    width: 200px;
-    height: 200px;
-}
-.yong{
-    width: 30%;
-    text-align: center;
+    padding-top: 0.3%;
+    margin-left: 20%;
 }
 .copyright{
+    float:left;
+    width: 1000px;
     text-align: center;
-    width: 30%;
+    color: white;
+    padding-top: 2%;
 }
