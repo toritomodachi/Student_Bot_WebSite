@@ -18,7 +18,7 @@ body{
 }
 .container{
     width: 100%;
-    height: 3000px;
+    height: 2550px;
     margin: auto;
     padding: auto;
     resize: none;
@@ -66,8 +66,8 @@ header nav{
     font-size: 28px;
 }
 .contents{
-    width: 100% ;
-    height: 3000px;
+    width: 100%;
+    height: 850px;
 }
 .jb-box { 
     width: 100%; 
@@ -95,7 +95,7 @@ header nav{
 }
 .jb-texts h1{ 
     position: absolute; 
-    top: 200px; 
+    top: 290px; 
     width: 80%; 
     text-align: right;
     color: white;
@@ -103,7 +103,7 @@ header nav{
 }
 .jb-texts h3{ 
     position: absolute; 
-    top: 140px; 
+    top: 220px; 
     width: 88%; 
     text-align: right;
     color: white;
@@ -111,14 +111,35 @@ header nav{
 }
 .jb-texts h4{ 
     position: absolute; 
-    top: 305px; 
+    top: 400px; 
     width: 77%; 
     text-align: right;
     color: white;
     font-size: 40px;
 }
 .banner{
-    height: 1000px;
+    width: 100%;
+    height: 1700px;
+}
+.first-banner{ 
+    background-color: #000000;
+    height: 850px;
+}
+.video-one{
+    float: left;
+}
+.fir-ba-text{
+    float:right;
+}
+.second-baaner{
+    background-color: #000000;
+    height: 850px;
+}
+.video-two{
+    float: right;
+}
+.sec-ba-text{
+    float:left;
 }
 .video-one{
     height: 50%;
