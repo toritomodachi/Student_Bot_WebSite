@@ -126,19 +126,26 @@ header nav{
     height: 850px;
 }
 .video-one{
+    padding-left: 10%;
+    padding-top: 5%;
     float: left;
 }
 .fir-ba-text{
     float:right;
+    padding-right: 10%;
+    padding-top: 15%;
 }
 .second-baaner{
     background-color: #000000;
     height: 850px;
 }
 .video-two{
+    padding-right: 10%;
     float: right;
 }
 .sec-ba-text{
+    padding-left: 10%;
+    padding-top:15%;
     float:left;
 }
 .video-one{
