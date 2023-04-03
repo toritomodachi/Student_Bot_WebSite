@@ -355,7 +355,7 @@ footer{
     .copyright{
         width: 80%;
         height: 70%;
-        padding-top: 30px;
+        padding-top: 0px;
         margin: 0;
         align-items: center;
         float: right;
@@ -432,15 +432,40 @@ footer{
         background: url(./img/mobile_menu.png) no-repeat center;
         background-size: contain;
     }
-    video{
-        width: 50%;
-    }
     .container{
         width: 100%;
         height: 2745px;
     }
     .contents > video{
-        width: 100%;
+        width: 80%;
+        margin: 0;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .jb-texts h1{ 
+        position: absolute; 
+        top: 48%; 
+        width: 99%; 
+        text-align: center;
+        color: white;
+        font-size: 50px;
+    }
+    .jb-texts h3{ 
+        position: absolute; 
+        top: 41%; 
+        left: 10%;
+        width: 80%; 
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+    .jb-texts h4{ 
+        position: absolute; 
+        top: 58%; 
+        width: 99%; 
+        text-align: center;
+        color: white;
+        font-size: 20px;
     }
     .contents{
         width: 100%;
@@ -450,9 +475,40 @@ footer{
         width: 100%;
         height: 915px;
     }
+    .video-one video{
+        width: 80%;
+    }
+    .video-one{
+        margin: 0;
+        margin-top: 20%;
+        padding-left: 18%;
+        width: 80%;
+    }
+    .fir-ba-text{
+        margin-right: 15%;
+        padding: 0;
+        font-size: 15px;
+        text-align: center;
+    }
     .second-baaner{
         width: 100%;
         height: 915px;
+    }
+    .video-two video{
+        width: 80%;
+    }
+    .video-two{
+        margin: 0;
+        margin-top: 20%;
+        padding-left: 15%;
+        width: 100%;
+    }
+    .sec-ba-text{
+        margin: 0;
+        margin-left: 20%;
+        padding: 0;
+        font-size: 15px;
+        text-align: center;
     }
     .container{
         width: 100%;
@@ -470,7 +526,7 @@ footer{
         text-align: center;
         padding-top: 40px;
         width: 80%;
-        height: 100px;
+        height: 50px;
     }
 }
 @media screen and (max-width:390px){
