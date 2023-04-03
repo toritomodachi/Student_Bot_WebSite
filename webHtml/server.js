@@ -5,31 +5,18 @@ $(document).ready(function(){
     })
 });
 
+$(document).ready(function(){
+    $('.container > video').fadeIn(2000);
+})
 
-var animation = function (){
-    var items, winH;
+let observer = new IntersectionObserver((e) => {
+    e.forEach((박스)=>{
+        if(박스.isIntersecting){
+            박스.target.style.opacity = 1;
+        } 
+        박스.intersectionRatio
+    })
+})
 
-    var initModule = function() {
-        items = document.querySelectorAll(".text");
-        winH = window.innerHeight;
-        _addEventHandlers();
-    }
-
-    var _addEventHandlers = function(){
-        window.addEventListener("scroll", _checkPosition);
-        window.addEventListener("load", _checkPosition);
-        window.addEventListener("resize", initModule);
-    };
-
-    var _checkPosition = function(){
-        for(var i = 0; i < items.length; i++){
-            var posFromTop = items[i].getBoundingClientRect().top;
-            if(winH > posFromTop){
-                items[i].classList.add("active");
-            }
-        }
-    }
-    return{
-        init : initModule
-    }
-}
+let div = document.querySelectorAll('div')
+observer.observe(div[0])
