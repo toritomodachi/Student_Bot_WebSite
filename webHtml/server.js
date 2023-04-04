@@ -18,5 +18,8 @@ let observer = new IntersectionObserver((e) => {
     })
 })
 
-let div = document.querySelectorAll('div')
-observer.observe(div[0])
+let div = document.querySelectorAll('video')
+observer.observe(Video[0])
+observer.observe(Video[1])
+observer.observe(Video[2])
+observer.observe(Video[3])
