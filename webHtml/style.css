@@ -79,18 +79,6 @@ header nav{
 #contents-video{
     border-radius: 20px;
 }
-.jb-text { 
-    position: absolute; 
-    top: 0; 
-    width: 100%; 
-}
-.jb-text img { 
-    width: 40%;
-    height: 1200px;
-    margin-top: 0; 
-    float: right;
-    color: #ffffff; 
-}
 .jb-texts h1{ 
     position: absolute; 
     top: 27%; 
@@ -118,6 +106,16 @@ header nav{
     color: white;
     font-size: 40px;
 }
+.invi{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    left: 65%;
+    top: 43%;
+    position: absolute;
+    display: block;
+    font-size: 25px;
+}
 .first-banner{ 
     background-color: white;
     width: 100%;
@@ -137,6 +135,14 @@ header nav{
     padding-right: 10%;
     padding-top: 30%;
     font-size: 30px;
+}
+.fir-funtion{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-left:16.5%;
+    font-size: 25px;
 }
 .fir-ba-text h4{
     margin-top: 10px;
@@ -163,6 +169,14 @@ header nav{
     color: #000000;
     text-align: right;
 }
+.sec-funtion{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-left: 26.5%;
+    font-size: 25px;
+}
 video{
     opacity: 1;
 }
@@ -184,10 +198,10 @@ footer{
 }
 .copyright{
     float:left;
-    width: 45%;
+    width: 40%;
     text-align: center;
     color: white;
-    padding-top: 2.7%;
+    padding-top: 2.3%;
 }
 .btn{
     width: 20%;
@@ -202,12 +216,20 @@ footer{
     border-radius: 10px;
     background-color: darkgray;
 }
-.btn > button:hover{
+.footer-invi{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 2%;
+    background-color: darkgray;
+}
+button:hover{
     color: #2990d0;
 }
 .more-btn{
     display: none;
 }
+
 @media screen and (max-width:1024px){
     body{
         width: 100%;
@@ -293,16 +315,17 @@ footer{
     }
     .jb-texts h1{ 
         position: absolute; 
-        top: 48%; 
+        top: 58%; 
         width: 70%; 
+        left: 15%;
         text-align: center;
         color: white;
         font-size: 100px;
     }
     .jb-texts h3{ 
         position: absolute; 
-        top: 41%; 
-        left: 10%;
+        top: 52%; 
+        left: 20%;
         width: 60%; 
         text-align: center;
         color: white;
@@ -310,11 +333,16 @@ footer{
     }
     .jb-texts h4{ 
         position: absolute; 
-        top: 58%; 
+        top: 68%; 
         width: 70%; 
+        left: 15%;
         text-align: center;
         color: white;
         font-size: 40px;
+    }
+    .invi{
+        left: 40%;
+        top: 46.5%;
     }
     .first-banner{
         width: 100%;
@@ -338,22 +366,28 @@ footer{
         bottom: 10%;
         text-align: center;
     }
+    .fir-funtion{
+        margin-left: 34%;
+    }
     .second-baaner{
         width: 100%;
         height: 1200px;
     }
     .video-two{
-        margin-left: 20%;
+        margin-left: 25%;
         margin-top: 20%;
         padding: 0;
         width: 50%;
         float: left;
     }
     .sec-ba-text{
-        margin-left: 20%;
+        margin-left: 25%;
         padding: 0;
         font-size: 30px;
         text-align: center;
+    }
+    .sec-funtion{
+        margin-left: 35%;
     }
     .banner{
         width: 100%;
@@ -371,27 +405,39 @@ footer{
         float: left;
     }
     .btn{
-        width: 20%;
-        padding-left: 1%;
+        width: 45%;
+        height: 50%;
         float: left;
+        margin-left: 10%;
+        margin-top: 5px;
     }
     .btn > button{
         width: 200px;
-        height: 30px;
-        margin-top: 4%;
+        height: 40px;
+        padding: 0;
+        margin: 0;
+        margin-left: 10px;
+        align-items: center;
         font-size: 15px;
         border-radius: 10px;
-        border: none;
         background-color: darkgray;
     }
+    .footer-invi{
+        margin: 0;
+        float: left;
+        margin-top: 10px;
+    }
     .copyright{
+        float: left;
         font-size: 25px;
-        width: 55%;
-        height: 50%;
-        padding-top: 40px;
+        width: 80%;
+        height: 40%;
+        padding: 0;
+        padding-top: 5px;
         margin: 0;
         align-items: center;
         float: right;
+        color: #000000;
     }
     
 }
