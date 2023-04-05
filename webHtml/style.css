@@ -5,10 +5,27 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TmonMonsori';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NEXONFootballGothicBA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXONFootballGothicBA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 *{
     margin: 0;
     padding: 0;
-    font-family:'GyeonggiTitleM';
 }
 body{
     background-color:#ffffff;
@@ -25,11 +42,16 @@ body{
 a{
     text-decoration: none;
     display: inline;
+    color: #333536;
+}
+ul{
+    list-style: none;
 }
 header{
     width: 100%;
     height: 100px;
     background: #fff;
+    font-family:'GyeonggiTitleM';
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,6 +92,7 @@ header nav{
     margin: 0px auto; 
     position: relative;
     background-color: #2990d0;
+    font-family: 'NEXONFootballGothicBA1';
 }
 .contents > video{
     margin-top: 5%;
@@ -117,6 +140,7 @@ header nav{
     font-size: 25px;
 }
 .first-banner{ 
+    font-family: 'NEXONFootballGothicBA1';
     background-color: white;
     width: 100%;
     height: 1200px;  
@@ -141,7 +165,7 @@ header nav{
     height: 50px;
     border-radius: 10px;
     margin-top: 1%;
-    margin-left:16.5%;
+    margin-left: 16.5%;
     font-size: 25px;
 }
 .fir-ba-text h4{
@@ -163,7 +187,8 @@ header nav{
 }
 .sec-ba-text{
     padding-left: 15%;
-    padding-top: 35%;
+    font-family: 'NEXONFootballGothicBA1';
+    padding-top: 30%;
     float:left;
     font-size: 30px;
     color: #000000;
@@ -177,55 +202,67 @@ header nav{
     margin-left: 26.5%;
     font-size: 25px;
 }
-video{
-    opacity: 1;
-}
 .sec-ba-text h4{
     margin-top: 20px;
 }
 footer{
+    font-family: 'GmarketSansMedium';
     bottom: 0;
     width: 100%;
-    height: 100px;
+    height: 150px;
     background-color: darkgray;
 }
 .footer-logo > img{
-    width: 90px;
-    height: 90px;
+    width: 300px;
+    height: 100px;
     float: left;
     padding-top: 0.3%;
-    margin-left: 20%;
+    margin-left: 16.5%;
+    margin-right: 5%;
 }
 .copyright{
-    float:left;
-    width: 40%;
+    width: 30%;
     text-align: center;
     color: white;
-    padding-top: 2.3%;
-}
-.btn{
-    width: 20%;
-    padding-left: 4%;
-    float: left;
-}
-.btn > button{
-    width: 300px;
-    height: 30px;
-    margin-top: 4%;
+    padding-left: 10%;
     font-size: 15px;
-    border-radius: 10px;
-    background-color: darkgray;
 }
-.footer-invi{
-    width: 100px;
-    height: 30px;
-    border-radius: 20px;
-    margin-top: 2%;
-    background-color: darkgray;
-}
-button:hover{
-    color: #2990d0;
-}
+.footer-mainMenu {
+    width: 900px;
+    height: 40%; 
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    position:relative;
+    font-size: 18px;
+    color: #000000;
+  }
+  .footer-mainMenu > h3{
+    width:20%;
+    text-align: left;
+    color:#000000;
+  }
+  
+  .footer-subMenu{
+    width: 960px;
+    display:flex;
+    justify-content: space-between;
+    position:absolute;
+    top:55px;
+    z-index:1;
+    
+  }
+  .footer-subMenu > ul{
+    width:25%;
+    text-align: left;
+  }
+  .footer-subMenu > ul > li > a{
+    color: #333536;
+  }
+  .footer-subMenu > ul > li > a:hover{
+    color:#ffffff;
+
+  }
 .more-btn{
     display: none;
 }
