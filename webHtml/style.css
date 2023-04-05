@@ -103,37 +103,34 @@ header nav{
 #contents-video{
     border-radius: 20px;
 }
+.jb-texts{
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    right: 1%;
+    top: 15%;
+}
 .jb-texts h1{ 
-    position: absolute; 
-    top: 27%; 
-    left: 8%;
-    width: 80%; 
-    text-align: right;
+    text-align: left;
     color: white;
     font-size: 120px;
 }
 .jb-texts h3{ 
-    position: absolute; 
-    left: 5%;
-    top: 21%; 
-    width: 88%; 
-    text-align: right;
+    text-align: left;
     color: white;
     font-size: 60px;
 }
 .jb-texts h4{ 
-    position: absolute; 
-    left: 5%;
-    top: 38%; 
-    width: 77%; 
-    text-align: right;
+    margin-left: 1%;
+    margin-top: -3%;
+    text-align: left;
     color: white;
     font-size: 40px;
 }
 #btn{
     position: absolute;
-    left: 65%;
-    top: 44%;
+    left: 60%;
+    top: 40%;
 }
 .invi{
     width: 200px;
@@ -306,7 +303,7 @@ footer{
     font-size: 15px;
 }
 .footer-mainMenu {
-    width: 900px;
+    width: 700px;
     height: 40%; 
     display: flex;
     justify-content: space-between;
@@ -322,7 +319,7 @@ footer{
   }
   
   .footer-subMenu{
-    width: 960px;
+    width: 750px;
     display:flex;
     justify-content: space-between;
     position:absolute;
