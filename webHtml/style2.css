@@ -14,12 +14,45 @@ body{
     width: 1000px;
 }
 header{
-    width: 200px;
-    float: left;
-    height: 650px;
-    background-color: #ccc;
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    font-family:'GyeonggiTitleM';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap; 
+    position:sticky;
+    top:0;
+    z-index: 4;   
 }
-header > nav{
+header nav{
+    margin: 100px;
+}
+.header-logo{
+    padding-left: 200px;
+    padding-right: 300px;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.meinMenu{
+    width: 50%;
+    height: 100%;
+    display:flex;
+    white-space: nowrap;
+}
+.mainMenu > a{
+    width: 50%;
+    padding: 40px 40px;
+    text-align: center;
+    color:#2990d0;
+}
+.mainMenu > a:hover{
+    color: #000000;
+    font-size: 28px;
+}
+.content > nav{
     width: 100%;
 }
 .main{
@@ -28,11 +61,8 @@ header > nav{
     margin: auto;
 }
 .content{
-    width: 800px;
-    margin-left: 200px;
+    margin-left: 260px;
     height: 650px;
-    text-align: center;
-    font-size: 60px;
-    text-transform: uppercase;
-    line-height: 650px;
+    float: left;
+    background-color: #444;
 }

@@ -595,7 +595,7 @@ footer{
         position: fixed;
         top: 0;
         left: 0;
-        width: 820px;
+        width: 100%;
         font-size: 30px;
         height: 100vh;
         opacity: 0;
@@ -654,7 +654,8 @@ footer{
     .jb-texts{
         position: absolute;
         width: 768px;
-        top: 45%;
+        top: 55%;
+        left: 13%;
     }
     .jb-texts h1{ 
         text-align: center;
@@ -672,7 +673,7 @@ footer{
         font-size: 40px;
     }
     #btn{
-        top : 39.5%;
+        top : 48.5%;
     }
     .first-banner{
         width: 100%;
@@ -745,7 +746,7 @@ footer{
       }
       
       .footer-subMenu{
-        width: 32%;
+        width: 40%;
         display:flex;
         justify-content: space-between;
         position:absolute;
@@ -754,9 +755,9 @@ footer{
       }
     
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) and (min-width:425px){
     body{
-        width: 100%;
+        width: 768px;
         height: 3800px;
     }
     header{
@@ -879,7 +880,7 @@ footer{
         text-align: center;
     }
     .fir-funtion{
-        left: 1.1%;
+        left: 27.1%;
     }
     .second-baaner{
         width: 100%;
@@ -935,7 +936,7 @@ footer{
         z-index:1;
       }
 }
-@media screen and (max-width:412px){
+@media screen and (max-width:425px) and (min-width:412px){
     body{
         width: 100%;
         height: 2850px;
@@ -1021,6 +1022,7 @@ footer{
     }
     .jb-texts{
         top: 36%;
+        left: -43%;
     }
     .jb-texts h1{ 
         text-align: center;
@@ -1062,7 +1064,7 @@ footer{
         text-align: center;
     }
     .fir-funtion{
-        margin-left: 18%;
+        margin-left: 30%;
         margin-top: 5%;
         border-radius: 20px;
         width: 60%;
@@ -1081,14 +1083,13 @@ footer{
         width: 100%;
     }
     .sec-ba-text{
-        margin: 0;
-        margin-left: 15%;
+        margin-left: 19%;
         padding: 0;
         font-size: 15px;
         text-align: center;
     }
     .sec-funtion{
-        margin-left: 18%;
+        margin-left: 21%;
         border-radius: 20px;
         margin-top: 5%;
         width: 60%;
@@ -1142,7 +1143,214 @@ footer{
         z-index:1;
       }
 }
-@media screen and (max-width:390px){
+@media screen and (min-width:425px) and (max-width:500px){
+    body{
+        width: 100%;
+        height: 2850px;
+        overflow-x: hidden;
+    }
+    header{
+        width: 100%;
+        height: 100px;
+    }
+    .header-logo{
+        width: 100%;
+        height: 100px;
+        padding-left: 10%;
+        margin-top: 20px;
+    }
+    .header-logo > img{
+        width: 300px; 
+        height: 70%;
+    }
+    .mainMenu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 412px;
+        font-size: 30px;
+        height: 100vh;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(100%);
+        background-color: rgba(14, 25, 38, 0.9);   
+    }
+    .mainMenu.active{
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(-100px);
+        transition: 0.3s;
+        
+    }
+    .mainMenu a{
+        display: block;
+        margin: auto;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    .more-btn{
+        display: block;
+        position: absolute;
+        right: 12px;
+        top: 8px;
+        width: 60px;
+        height: 60px;
+        border-radius: 8px;
+        border: none;
+        background-color: transparent;
+    }
+    .more-btn .icon{
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 0 auto;
+        background: url(./img/mobile_menu.png) no-repeat center;
+        background-size: contain;
+    }
+    .more-btn.active .icon{
+        background: url(./img/mobile_menu.png) no-repeat center;
+        background-size: contain;
+    }
+    #btn{
+        left: 8%;
+        top: 55%;
+    }
+    .container{
+        width: 100%;
+        height: 2745px;
+    }
+    .contents > video{
+        width: 100%;
+        margin: 0;
+        margin-top: 5%;
+    }
+    .invi{
+        width: 350px;
+    }
+    .jb-texts{
+        top: 36%;
+        left: 4%;
+    }
+    .jb-texts h1{ 
+        text-align: center;
+        color: white;
+        font-size: 60px;
+    }
+    .jb-texts h3{ 
+        text-align: center;
+        color: white;
+        font-size: 35px;
+    }
+    .jb-texts h4{ 
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+    .contents{
+        width: 100%;
+        height: 915px;
+    }
+    .first-banner{
+        width: 100%;
+        height: 915px;
+    }
+    .video-one video{
+        width: 100%;
+    }
+    .video-one{
+        margin: 0;
+        margin-top: 20%;
+        padding-left: 0%;
+        padding: 0;
+        width: 100%;
+    }
+    .fir-ba-text{
+        margin-right: 11%;
+        padding: 0;
+        font-size: 15px;
+        text-align: center;
+    }
+    .fir-funtion{
+        margin-left: -5%;
+        margin-top: 5%;
+        border-radius: 20px;
+        width: 60%;
+    }
+    .second-baaner{
+        width: 100%;
+        height: 915px;
+    }
+    .video-two video{
+        width: 100%;
+    }
+    .video-two{
+        margin: 0;
+        margin-top: 20%;
+        padding-left: 0%;
+        width: 100%;
+    }
+    .sec-ba-text{
+        margin-left: 19%;
+        padding: 0;
+        font-size: 15px;
+        text-align: center;
+    }
+    .sec-funtion{
+        margin-left: 21%;
+        border-radius: 20px;
+        margin-top: 5%;
+        width: 60%;
+    }
+    .container{
+        width: 100%;
+    }
+    .banner{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+        height: 150px;
+        bottom: 0;
+        font-size: 20px;
+    }
+    .footer-logo{
+        margin-left: 70px;
+    }
+    .footer-logo > img{
+        width: 100px;
+        height: 40%;
+        display: none;
+    }
+    .copyright{
+        text-align: center;
+        width: 80%;
+        height: 35px;
+        padding-top: 70px;
+    }
+    .footer-mainMenu {
+        width: 300px;
+        margin-left: 10%;
+        height: 40px;
+        position:relative;
+        font-size: 10px;
+        color: #000000;
+      }
+      .footer-mainMenu > h3{
+        width:20%;
+        text-align: left;
+        color:#000000;
+      }
+      
+      .footer-subMenu{
+        width: 320px;
+        display:flex;
+        justify-content: space-between;
+        position:absolute;
+        top:35px;
+        z-index:1;
+      }
+}
+@media screen and (max-width:390px) and (min-width:375px){
     body{
         width: 100%;
         height: 2850px;
@@ -1229,6 +1437,7 @@ footer{
     }
     .jb-texts{
         top: 36%;
+        left: -51%;
     }
     .jb-texts h1{ 
         text-align: center;
