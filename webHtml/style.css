@@ -33,6 +33,7 @@ body{
     color:#2990d0;
     max-width: 100%;
     font-size: 25px;
+    overflow-x: hidden;
 }
 .container{
     width: 100%;
@@ -1381,7 +1382,6 @@ footer{
         visibility: visible;
         transform: translateX(-100px);
         transition: 0.3s;
-        
     }
     .mainMenu a{
         display: block;
