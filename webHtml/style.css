@@ -348,7 +348,10 @@ footer{
         font-size: 25px;
     }
     .fir-funtion{
-        right: 8%;
+        right: -2%;
+    }
+    .sec-funtion{
+        left: -5%;
     }
     .sec-ba-text{
         margin-right: 5%;
