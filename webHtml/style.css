@@ -365,9 +365,6 @@ footer{
         width: 100%;
         height: 100px;
     }
-    img{
-        width: 500px;
-    }
     .header-logo{
         margin: 0;
         height: 100%;
@@ -589,9 +586,6 @@ footer{
         width: 100%;
         height: 100px;
     }
-    img{
-        width: 500px;
-    }
     .header-logo{
         margin: 0;
         height: 100%;
@@ -768,9 +762,6 @@ footer{
         width: 100%;
         height: 100px;
     }
-    img{
-        width: 500px;
-    }
     .header-logo{
         padding-left: 15%;
         margin: 0;
@@ -845,9 +836,9 @@ footer{
         top: 37%;
     }
     .jb-texts{
-        width: 768px;
+        width: 90%;
         top: 43%;
-        left: 1%;
+        left: 6%;
     }
     .jb-texts h1{ 
         text-align: center;
@@ -918,13 +909,14 @@ footer{
         color: white;
         font-size: 10px;
     }
+    .footer-logo > img{
+        margin-right: 10px;
+    }
     .footer-mainMenu {
-        margin: 0;
-        padding: 0;
         width: 300px;
         height: 40%;
         position:relative;
-        font-size: 13px;
+        font-size: 12px;
         color: #000000;
       }
       .footer-mainMenu > h3{
@@ -942,191 +934,435 @@ footer{
         z-index:1;
       }
 }
-@media screen and (max-width:425px){
-    body{
-        width: 100%;
-        height: 100%;
-    }
-    header{
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        height: 100px;
-    }
-    img{
-        width: 200px;
-    }
-    .header-logo{
-        padding: 0;
-        margin-left: 50px;
-        padding-top: 30px;
-        height: 80%;
-    }
-    .mainMenu{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 412px;
-        font-size: 30px;
-        height: 100vh;
-        opacity: 0;
-        visibility: hidden;
-        transform: translateX(100%);
-        background-color: rgba(14, 25, 38, 0.9);   
-    }
-    .mainMenu.active{
-        opacity: 1;
-        visibility: visible;
-        transform: translateX(-100px);
-        transition: 0.3s;
-        
-    }
-    .mainMenu a{
-        display: block;
-        margin: auto;
-        margin-bottom: 8px;
-        text-align: center;
-    }
-    .more-btn{
-        display: block;
-        position: absolute;
-        right: 12px;
-        top: 8px;
-        width: 40px;
-        height: 40px;
-        border-radius: 8px;
-        border: none;
-        background-color: transparent;
-    }
-    .more-btn .icon{
-        display: block;
-        width: 24px;
-        height: 24px;
-        margin: 0 auto;
-        background: url(./img/mobile_menu.png) no-repeat center;
-        background-size: contain;
-    }
-    .more-btn.active .icon{
-        background: url(./img/mobile_menu.png) no-repeat center;
-        background-size: contain;
-    }
-    .container{
-        width: 100%;
-        height: 2745px;
-    }
-    .contents > video{
-        width: 80%;
-        margin: 0;
-        margin-left: 10%;
-        margin-top: 10%;
-    }
-    .jb-texts h1{ 
-        position: absolute; 
-        top: 48%; 
-        width: 99%; 
-        text-align: center;
-        color: white;
-        font-size: 50px;
-    }
-    .jb-texts h3{ 
-        position: absolute; 
-        top: 41%; 
-        left: 10%;
-        width: 80%; 
-        text-align: center;
-        color: white;
-        font-size: 30px;
-    }
-    .jb-texts h4{ 
-        position: absolute; 
-        top: 58%; 
-        width: 99%; 
-        text-align: center;
-        color: white;
-        font-size: 20px;
-    }
-    .contents{
-        width: 100%;
-        height: 915px;
-    }
-    .first-banner{
-        width: 100%;
-        height: 915px;
-    }
-    .video-one video{
-        width: 80%;
-    }
-    .video-one{
-        margin: 0;
-        margin-top: 20%;
-        padding-left: 18%;
-        width: 80%;
-    }
-    .fir-ba-text{
-        margin-right: 15%;
-        padding: 0;
-        font-size: 15px;
-        text-align: center;
-    }
-    .second-baaner{
-        width: 100%;
-        height: 915px;
-    }
-    .video-two video{
-        width: 80%;
-    }
-    .video-two{
-        margin: 0;
-        margin-top: 20%;
-        padding-left: 15%;
-        width: 100%;
-    }
-    .sec-ba-text{
-        margin: 0;
-        margin-left: 20%;
-        padding: 0;
-        font-size: 15px;
-        text-align: center;
-    }
-    .container{
-        width: 100%;
-    }
-    .banner{
-        width: 100%;
-    }
-    footer{
-        width: 100%;
-        height: 100px;
-        bottom: 0;
-        font-size: 20px;
-    }
-    .copyright{
-        text-align: center;
-        padding-top: 40px;
-        width: 80%;
-        height: 50px;
-    }
-    
-}
 @media screen and (max-width:412px){
     body{
         width: 100%;
-        height: 100%;
+        height: 2850px;
+        overflow-x: hidden;
     }
     header{
-        padding: 0;
-        margin: 0;
         width: 100%;
         height: 100px;
     }
-    img{
-        width: 200px;
+    .header-logo{
+        width: 100%;
+        height: 100px;
+        padding-left: 10%;
+        margin-top: 20px;
+    }
+    .header-logo > img{
+        width: 300px; 
+        height: 70%;
+    }
+    .mainMenu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 412px;
+        font-size: 30px;
+        height: 100vh;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(100%);
+        background-color: rgba(14, 25, 38, 0.9);   
+    }
+    .mainMenu.active{
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(-100px);
+        transition: 0.3s;
+        
+    }
+    .mainMenu a{
+        display: block;
+        margin: auto;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    .more-btn{
+        display: block;
+        position: absolute;
+        right: 12px;
+        top: 8px;
+        width: 60px;
+        height: 60px;
+        border-radius: 8px;
+        border: none;
+        background-color: transparent;
+    }
+    .more-btn .icon{
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 0 auto;
+        background: url(./img/mobile_menu.png) no-repeat center;
+        background-size: contain;
+    }
+    .more-btn.active .icon{
+        background: url(./img/mobile_menu.png) no-repeat center;
+        background-size: contain;
+    }
+    #btn{
+        left: 8%;
+        top: 55%;
+    }
+    .container{
+        width: 100%;
+        height: 2745px;
+    }
+    .contents > video{
+        width: 100%;
+        margin: 0;
+        margin-top: 5%;
+    }
+    .invi{
+        width: 350px;
+    }
+    .jb-texts{
+        top: 36%;
+    }
+    .jb-texts h1{ 
+        text-align: center;
+        color: white;
+        font-size: 60px;
+    }
+    .jb-texts h3{ 
+        text-align: center;
+        color: white;
+        font-size: 35px;
+    }
+    .jb-texts h4{ 
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+    .contents{
+        width: 100%;
+        height: 915px;
+    }
+    .first-banner{
+        width: 100%;
+        height: 915px;
+    }
+    .video-one video{
+        width: 100%;
+    }
+    .video-one{
+        margin: 0;
+        margin-top: 20%;
+        padding-left: 0%;
+        padding: 0;
+        width: 100%;
+    }
+    .fir-ba-text{
+        margin-right: 11%;
+        padding: 0;
+        font-size: 15px;
+        text-align: center;
+    }
+    .fir-funtion{
+        margin-left: 18%;
+        margin-top: 5%;
+        border-radius: 20px;
+        width: 60%;
+    }
+    .second-baaner{
+        width: 100%;
+        height: 915px;
+    }
+    .video-two video{
+        width: 100%;
+    }
+    .video-two{
+        margin: 0;
+        margin-top: 20%;
+        padding-left: 0%;
+        width: 100%;
+    }
+    .sec-ba-text{
+        margin: 0;
+        margin-left: 15%;
+        padding: 0;
+        font-size: 15px;
+        text-align: center;
+    }
+    .sec-funtion{
+        margin-left: 18%;
+        border-radius: 20px;
+        margin-top: 5%;
+        width: 60%;
+    }
+    .container{
+        width: 100%;
+    }
+    .banner{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+        height: 150px;
+        bottom: 0;
+        font-size: 20px;
+    }
+    .footer-logo{
+        margin-left: 70px;
+    }
+    .footer-logo > img{
+        width: 100px;
+        height: 40%;
+        display: none;
+    }
+    .copyright{
+        text-align: center;
+        width: 80%;
+        height: 35px;
+        padding-top: 70px;
+    }
+    .footer-mainMenu {
+        width: 300px;
+        margin-left: 10%;
+        height: 40px;
+        position:relative;
+        font-size: 10px;
+        color: #000000;
+      }
+      .footer-mainMenu > h3{
+        width:20%;
+        text-align: left;
+        color:#000000;
+      }
+      
+      .footer-subMenu{
+        width: 320px;
+        display:flex;
+        justify-content: space-between;
+        position:absolute;
+        top:35px;
+        z-index:1;
+      }
+}
+@media screen and (max-width:390px){
+    body{
+        width: 100%;
+        height: 2850px;
+        overflow-x: hidden;
+    }
+    header{
+        width: 100%;
+        height: 100px;
     }
     .header-logo{
+        width: 100%;
+        height: 100px;
+        padding-left: 10%;
+        margin-top: 20px;
+    }
+    .header-logo > img{
+        width: 300px; 
+        height: 70%;
+    }
+    .mainMenu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 412px;
+        font-size: 30px;
+        height: 100vh;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(100%);
+        background-color: rgba(14, 25, 38, 0.9);   
+    }
+    .mainMenu.active{
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(-100px);
+        transition: 0.3s;
+        
+    }
+    .mainMenu a{
+        display: block;
+        margin: auto;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    .more-btn{
+        display: block;
+        position: absolute;
+        right: 12px;
+        top: 8px;
+        width: 60px;
+        height: 60px;
+        border-radius: 8px;
+        border: none;
+        background-color: transparent;
+    }
+    .more-btn .icon{
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 0 auto;
+        background: url(./img/mobile_menu.png) no-repeat center;
+        background-size: contain;
+    }
+    .more-btn.active .icon{
+        background: url(./img/mobile_menu.png) no-repeat center;
+        background-size: contain;
+    }
+    #btn{
+        left: 8%;
+        top: 55%;
+    }
+    .container{
+        width: 100%;
+        height: 2745px;
+    }
+    .contents > video{
+        width: 100%;
+        margin: 0;
+        margin-top: 5%;
+    }
+    .invi{
+        width: 350px;
+        left: -3%;
+    }
+    .jb-texts{
+        top: 36%;
+    }
+    .jb-texts h1{ 
+        text-align: center;
+        color: white;
+        font-size: 60px;
+    }
+    .jb-texts h3{ 
+        text-align: center;
+        color: white;
+        font-size: 35px;
+    }
+    .jb-texts h4{ 
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+    .contents{
+        width: 100%;
+        height: 915px;
+    }
+    .first-banner{
+        width: 100%;
+        height: 915px;
+    }
+    .video-one video{
+        width: 100%;
+    }
+    .video-one{
+        margin: 0;
+        margin-top: 20%;
+        padding-left: 0%;
         padding: 0;
-        margin-left: 50px;
-        padding-top: 30px;
-        height: 80%;
+        width: 100%;
+    }
+    .fir-ba-text{
+        margin-right: 11%;
+        padding: 0;
+        font-size: 15px;
+        text-align: center;
+    }
+    .fir-funtion{
+        margin-left: 18%;
+        margin-top: 5%;
+        border-radius: 20px;
+        width: 60%;
+    }
+    .second-baaner{
+        width: 100%;
+        height: 915px;
+    }
+    .video-two video{
+        width: 100%;
+    }
+    .video-two{
+        margin: 0;
+        margin-top: 20%;
+        padding-left: 0%;
+        width: 100%;
+    }
+    .sec-ba-text{
+        margin: 0;
+        margin-left: 15%;
+        padding: 0;
+        font-size: 15px;
+        text-align: center;
+    }
+    .sec-funtion{
+        margin-left: 18%;
+        border-radius: 20px;
+        margin-top: 5%;
+        width: 60%;
+    }
+    .container{
+        width: 100%;
+    }
+    .banner{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+        height: 150px;
+        bottom: 0;
+        font-size: 20px;
+    }
+    .footer-logo{
+        margin-left: 70px;
+    }
+    .footer-logo > img{
+        width: 100px;
+        height: 40%;
+        display: none;
+    }
+    .copyright{
+        text-align: center;
+        width: 80%;
+        height: 35px;
+        padding-top: 70px;
+    }
+    .footer-mainMenu {
+        width: 300px;
+        margin-left: 10%;
+        height: 40px;
+        position:relative;
+        font-size: 10px;
+        color: #000000;
+      }
+      .footer-mainMenu > h3{
+        width:20%;
+        text-align: left;
+        color:#000000;
+      }
+      
+      .footer-subMenu{
+        width: 320px;
+        display:flex;
+        justify-content: space-between;
+        position:absolute;
+        top:35px;
+        z-index:1;
+      }
+}
+@media screen and (max-width:375px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    header{
+        width: 100%;
+        height: 100px;
+    }
+    .header-logo{
+        width: 40%;
+    }
+    .header-logo > img{
+        width: 100%; 
     }
     .mainMenu{
         position: fixed;
@@ -1187,26 +1423,16 @@ footer{
         margin-top: 10%;
     }
     .jb-texts h1{ 
-        position: absolute; 
-        top: 48%; 
-        width: 99%; 
         text-align: center;
         color: white;
         font-size: 50px;
     }
     .jb-texts h3{ 
-        position: absolute; 
-        top: 41%; 
-        left: 10%;
-        width: 80%; 
         text-align: center;
         color: white;
         font-size: 30px;
     }
     .jb-texts h4{ 
-        position: absolute; 
-        top: 58%; 
-        width: 99%; 
         text-align: center;
         color: white;
         font-size: 20px;
@@ -1272,7 +1498,4 @@ footer{
         width: 80%;
         height: 50px;
     }
-}
-@media screen and (max-width:390px){
-    
 }
