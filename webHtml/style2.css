@@ -55,17 +55,20 @@ header nav{
 .content > nav{
     width: 100%;
 }
-.main{
-    width: 180px;
-    text-align: center;
-    margin: auto;
-}
 .command{
     margin-left: 260px;
-    height: 650px;
+    height: 840px;
     float: left;
     background-color: #444;
 }
-.command > a{
-    margin-top: 40%;
+.main{
+    width: 180px;
+    height: 840px;
+    text-align: center;
+}
+.main > li > a{
+    line-height: 44px;
+}
+.main > li > a:hover{
+    color: #fff;
 }
