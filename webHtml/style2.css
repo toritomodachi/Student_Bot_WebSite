@@ -11,7 +11,7 @@ a{
     color: #2990d0;
 }
 body{
-    width: 1000px;
+    width: 1690px;
 }
 header{
     width: 100%;
@@ -32,9 +32,13 @@ header nav{
 .header-logo{
     padding-left: 200px;
     padding-right: 300px;
-    width: 100px;
+    width: 500px;
     height: 100px;
     float: left;
+}
+.header-logo > img {
+    width: 500px;
+    height: 100px;
 }
 .meinMenu{
     width: 50%;
@@ -52,14 +56,15 @@ header nav{
     color: #000000;
     font-size: 28px;
 }
-.content > nav{
-    width: 100%;
-}
 .command{
     margin-left: 260px;
     height: 840px;
     float: left;
     background-color: #444;
+}
+.content{
+    width: 70%;
+    float: right;
 }
 .main{
     width: 180px;
@@ -72,3 +77,62 @@ header nav{
 .main > li > a:hover{
     color: #fff;
 }
+footer{
+    font-family: 'GmarketSansMedium';
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background-color: darkgray;
+    float: left;
+}
+.footer-logo > img{
+    width: 300px;
+    height: 100px;
+    float: left;
+    padding-top: 0.3%;
+    margin-left: 16.5%;
+    margin-right: 5%;
+}
+.copyright{
+    width: 24%;
+    text-align: right;
+    color: white;
+    padding-left: 10%;
+    font-size: 15px;
+}
+.footer-mainMenu {
+    width: 700px;
+    height: 40%; 
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    position:relative;
+    font-size: 18px;
+    color: #000000;
+  }
+  .footer-mainMenu > h3{
+    width:20%;
+    text-align: left;
+    color:#000000;
+  }
+  
+  .footer-subMenu{
+    width: 750px;
+    display:flex;
+    justify-content: space-between;
+    position:absolute;
+    top:55px;
+    z-index:1;
+    
+  }
+  .footer-subMenu > ul{
+    width:25%;
+    text-align: left;
+  }
+  .footer-subMenu > ul > li > a{
+    color: #333536;
+  }
+  .footer-subMenu > ul > li > a:hover{
+    color:#ffffff;
+
+  }
