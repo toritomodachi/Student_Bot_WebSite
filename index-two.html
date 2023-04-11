@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="webHtml/style2.css">
+    <script src="webHtml/jquery-1.12.4.js"></script>
+    <script src="webHtml/jquery-2.2.4.js"></script>
+    <script src="webHtml/jquery-3.6.4.js"></script>
+    <script src="webHtml/server-two.js"></script>
     <title>명령어페이지</title>
 </head>
 <body>
@@ -28,29 +32,29 @@
     <section class="command">
         <nav>
         <ul class="main">
-            <li><a href="#">학교정보</a></li>
-            <li><a href="#">학원정보</a></li>
-            <li><a href="#">반정보</a></li>
-            <li><a href="#">시간표</a></li>
-            <li><a href="#">급식</a></li>
-            <li><a href="#">한강</a></li>
-            <li><a href="#">416</a></li>
-            <li><a href="#">학사일정</a></li>
-            <li><a href="#">가위바위보</a></li>
-            <li><a href="#">버스정보</a></li>
-            <li><a href="#">내정보등록</a></li>
-            <li><a href="#">내정보관리</a></li>
-            <li><a href="#">통합조회</a></li>
-            <li><a href="#">인생명언</a></li>
-            <li><a href="#">서포트서버</a></li>
-            <li><a href="#">알리미등록</a></li>
-            <li><a href="#">알리미관리</a></li>
-            <li><a href="#">설정</a></li>
-            <li><a href="#">마지막</a></li>
+            <li><a href="javascript:doDisplay();">학교정보</a></li>
+            <li><a href="javascript:doDisplay2();">학원정보</a></li>
+            <li><a href="javascript:doDisplay3();">반정보</a></li>
+            <li><a href="javascript:doDisplay4();">시간표</a></li>
+            <li><a href="javascript:doDisplay5();">급식</a></li>
+            <li><a href="javascript:doDisplay6();">한강</a></li>
+            <li><a href="javascript:doDisplay7();">416</a></li>
+            <li><a href="javascript:doDisplay8();">학사일정</a></li>
+            <li><a href="javascript:doDisplay9();">가위바위보</a></li>
+            <li><a href="javascript:doDisplay10();">버스정보</a></li>
+            <li><a href="javascript:doDisplay11();">내정보등록</a></li>
+            <li><a href="javascript:doDisplay12();">내정보관리</a></li>
+            <li><a href="javascript:doDisplay13();">통합조회</a></li>
+            <li><a href="javascript:doDisplay14();">인생명언</a></li>
+            <li><a href="javascript:doDisplay15();">서포트서버</a></li>
+            <li><a href="javascript:doDisplay16();">알리미등록</a></li>
+            <li><a href="javascript:doDisplay17();">알리미관리</a></li>
+            <li><a href="javascript:doDisplay18();">설정</a></li>
+            <li><a href="javascript:doDisplay19();">마지막</a></li>
         </ul>
     </nav>
     </section>
-    <section class="content">
+    <section id="content">
         <div class="h1tag">
             <h1>학교정보</h1>
         </div>
@@ -69,42 +73,341 @@
             <p>/학교정보 (학교명)으로 명령어 사용이 가능합니다.</p>
         </div>
     </section>
-    <section class="content-two">
+    <section id="content-two">
         <div class="h1tag">
-            <h1>학교정보</h1>
+            <h1>학원정보</h1>
         </div>
         <div class="Exp">
             <h1>설명</h1>
         </div>
         <hr>
         <div class="explanation">
-            <p>전국 초중고 학교 세부 정보를 알려줍니다.</p>
+            <p>전국 학원(교습소)의 세부 정보를 알려줍니다.</p>
         </div>
         <div class="U">
             <h1>사용법</h1>
         </div>
         <hr>
         <div class="use">
-            <p>/학교정보 (학교명)으로 명령어 사용이 가능합니다.</p>
+            <p>/학원정보 (교육청)(행정구역)(학원명)으로 명령어 사용이 가능합니다.</p>
         </div>
     </section>
-    <section class="content-three">
+    <section id="content-three">
         <div class="h1tag">
-            <h1>학교정보</h1>
+            <h1>반정보</h1>
         </div>
         <div class="Exp">
             <h1>설명</h1>
         </div>
         <hr>
         <div class="explanation">
-            <p>전국 초중고 학교 세부 정보를 알려줍니다.</p>
+            <p>특성화 / 마이스터고의 반 별 학과 정보를 알려줍니다.</p>
         </div>
         <div class="U">
             <h1>사용법</h1>
         </div>
         <hr>
         <div class="use">
-            <p>/학교정보 (학교명)으로 명령어 사용이 가능합니다.</p>
+            <p>/학교정보 (학교명)(학년)(반)으로 명령어 사용이 가능합니다.</p>
+        </div>
+    </section>
+    <section id="content-four">
+        <div class="h1tag">
+            <h1>시간표</h1>
+        </div>
+        <div class="Exp">
+            <h1>설명</h1>
+        </div>
+        <hr>
+        <div class="explanation">
+            <p>전국 초중고 시간표를 알려드려요.</p>
+        </div>
+        <div class="U">
+            <h1>사용법</h1>
+        </div>
+        <hr>
+        <div class="use">
+            <p>/학교정보 (학교명)(학년)(반)(날짜)으로 명령어 사용할 수 있습니다.</p>
+        </div>
+    </section>
+    <section id="content-five">
+        <div class="h1tag">
+            <h1>급식</h1>
+        </div>
+        <div class="Exp">
+            <h1>설명</h1>
+        </div>
+        <hr>
+        <div class="explanation">
+            <p>전국 학교의 급식 정보를 알려드려요.</p>
+        </div>
+        <div class="U">
+            <h1>사용법</h1>
+        </div>
+        <hr>
+        <div class="use">
+            <p>/학교정보 (학교명)(날짜)</p>
+        </div>
+    </section>
+    <section id="content-six">
+        <div class="h1tag">
+            <h1>한강</h1>
+        </div>
+        <div class="Exp">
+            <h1>설명</h1>
+        </div>
+        <hr>
+        <div class="explanation">
+            <p>한강 물의 수온을 알려줘요, 자살예방상담전화 1393</p>
+        </div>
+        <div class="U">
+            <h1>사용법</h1>
+        </div>
+        <hr>
+        <div class="use">
+            <p>/한강 으로 명령어 사용이 가능합니다.</p>
+        </div>
+    </section>
+    <section id="content-seven">
+        <div class="h1tag">
+            <h1>416</h1>
+        </div>
+        <div class="Exp">
+            <h1>설명</h1>
+        </div>
+        <hr>
+        <div class="explanation">
+            <p>2014년 4월 16일, 더 이상 흐르지 않는 시간</p>
+        </div>
+        <div class="U">
+            <h1>사용법</h1>
+        </div>
+        <hr>
+        <div class="use">
+            <p>/416</p>
+        </div>
+    </section>
+    <section id="content-eight">
+        <div class="h1tag">
+            <h1>학사일정</h1>
+        </div>
+        <div class="Exp">
+            <h1>설명</h1>
+        </div>
+        <hr>
+        <div class="explanation">
+            <p>해당 학교의 학상일정을 알려드려요.</p>
+        </div>
+        <div class="U">
+            <h1>사용법</h1>
+        </div>
+        <hr>
+        <div class="use">
+            <p>/학사일정 (학교명)(날짜)</p>
+        </div>
+    </section>
+    <section id="content-nine">
+        <div class="h1tag">
+            <h1>가위바위보</h1>
+        </div>
+        <div class="Exp">
+            <h1>설명</h1>
+        </div>
+        <hr>
+        <div class="explanation">
+            <p>안 내면진다~! 가위! 바위! 보!</p>
+        </div>
+        <div class="U">
+            <h1>사용법</h1>
+        </div>
+        <hr>
+        <div class="use">
+            <p>/가위바위보 (대결상대) [(상대선택)(가위바위보)]으로 명령어 사용이 가능합니다.</p>
+        </div>
+    </section>
+    <section id="content-ten">
+        <div class="h1tag">
+            <h1>버스정보</h1>
+        </div>
+        <div class="Exp">
+            <h1>설명</h1>
+        </div>
+        <hr>
+        <div class="explanation">
+            <p>서울/경기/인천 지역만 지원하고 있습니다.(BETA)</p>
+        </div>
+        <div class="U">
+            <h1>사용법</h1>
+        </div>
+        <hr>
+        <div class="use">
+            <p>/버스정보 (정류소명)(수도권)으로 명령어 사용이 가능합니다.</p>
+        </div>
+    </section>
+    <section id="content-eleven">
+        <div class="h1tag">
+            <h1>내정보등록</h1>
+        </div>
+        <div class="Exp">
+            <h1>설명</h1>
+        </div>
+        <hr>
+        <div class="explanation">
+            <p>본인의 정보를 등록해서 편하게 서비스를 이용해 보세요.</p>
+        </div>
+        <div class="U">
+            <h1>사용법</h1>
+        </div>
+        <hr>
+        <div class="use">
+            <p>/내정보등록 (학교명)(학년)(반)(생년월일)으로 명령어 사용이 가능합니다.</p>
+        </div>
+    </section>
+    <section id="content-twelve">
+        <div class="h1tag">
+            <h1>내정보관리</h1>
+        </div>
+        <div class="Exp">
+            <h1>설명</h1>
+        </div>
+        <hr>
+        <div class="explanation">
+            <p>등록된 정보를 관리할 수 있습니다.</p>
+        </div>
+        <div class="U">
+            <h1>사용법</h1>
+        </div>
+        <hr>
+        <div class="use">
+            <p>/내정보관리(관리)으로 명령어 사용이 가능합니다.</p>
+        </div>
+    </section>
+    <section id="content-thirteen">
+        <div class="h1tag">
+            <h1>통합조회</h1>
+        </div>
+        <div class="Exp">
+            <h1>설명</h1>
+        </div>
+        <hr>
+        <div class="explanation">
+            <p>등록된 정보를 바탕으로 급식, 시간표, 학사일정을 한번에!</p>
+        </div>
+        <div class="U">
+            <h1>사용법</h1>
+        </div>
+        <hr>
+        <div class="use">
+            <p>/통합조회 (조회일자)으로 명령어 사용이 가능합니다.</p>
+        </div>
+    </section>
+    <section id="content-fourteen">
+        <div class="h1tag">
+            <h1>인생명언</h1>
+        </div>
+        <div class="Exp">
+            <h1>설명</h1>
+        </div>
+        <hr>
+        <div class="explanation">
+            <p>인생을 바꾸는 오늘의 명언을 확인해 보세요.</p>
+        </div>
+        <div class="U">
+            <h1>사용법</h1>
+        </div>
+        <hr>
+        <div class="use">
+            <p>/인생명언 으로 명령어 사용이 가능합니다.</p>
+        </div>
+    </section>
+    <section id="content-fifteen">
+        <div class="h1tag">
+            <h1>서포트서버</h1>
+        </div>
+        <div class="Exp">
+            <h1>설명</h1>
+        </div>
+        <hr>
+        <div class="explanation">
+            <p>학생비서의 서포트 서버입니다!</p>
+        </div>
+        <div class="U">
+            <h1>사용법</h1>
+        </div>
+        <hr>
+        <div class="use">
+            <p>/서포트서버 으로 명령어 사용이 가능합니다.</p>
+        </div>
+    </section>
+    <section id="content-sixteen">
+        <div class="h1tag">
+            <h1>알리미등록</h1>
+        </div>
+        <div class="Exp">
+            <h1>설명</h1>
+        </div>
+        <hr>
+        <div class="explanation">
+            <p>급식정보와 학사일정 정보를 매일 아침 8시에 채널로 발송합니다.</p>
+        </div>
+        <div class="U">
+            <h1>사용법</h1>
+        </div>
+        <hr>
+        <div class="use">
+            <p>/알리미등록(학교명)(채널) 으로 명령어 사용이 가능합니다.</p>
+        </div>
+    </section>
+    <section id="content-seventeen">
+        <div class="h1tag">
+            <h1>알리미관리</h1>
+        </div>
+        <div class="Exp">
+            <h1>설명</h1>
+        </div>
+        <hr>
+        <div class="explanation">
+            <p>등록된 알리미 정보를 관리할 수 있습니다.</p>
+        </div>
+        <div class="U">
+            <h1>사용법</h1>
+        </div>
+        <hr>
+        <div class="use">
+            <p>/알리미관리 (관리)으로 명령어 사용이 가능합니다.</p>
+        </div>
+    </section>
+    <section id="content-eighteen">
+        <div class="h1tag">
+            <h1>설정</h1>
+        </div>
+        <div class="Exp">
+            <h1>설명</h1>
+        </div>
+        <hr>
+        <div class="explanation">
+            <p>학생비서 사용자 개인 설정이 가능 합니다.</p>
+        </div>
+        <div class="U">
+            <h1>사용법</h1>
+        </div>
+        <hr>
+        <div class="use">
+            <p>/설정 으로 명령어 사용이 가능합니다.</p>
+        </div>
+    </section>
+    <section id="content-nineteen">
+        <div class="h1tag">
+            <h1>마지막</h1>
+        </div>
+        <div class="Exp">
+            <h1>설명</h1>
+        </div>
+        <hr>
+        <div class="explanation">
+            <p>명령어는 아니고 앞으로도 계속 새로운 명령어를 적어 나아갈겁니다!<br>
+            잘 지켜봐 주세요.</p>
+        </div>
         </div>
     </section>
     <footer>

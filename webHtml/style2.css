@@ -63,15 +63,119 @@ header nav{
     float: left;
     background-color: #444;
 }
-.content{
+#content{
     width: 70%;
+    margin-left: 40px;
+    float: right;
+    display: none;
+}
+#content-two{
+    display: none;
+    width: 70%;
+    margin-left: 40px;
     float: right;
 }
-.content-two{
+#content-three{
     display: none;
+    width: 70%;
+    margin-left: 40px;
+    float: right;
 }
-.content-three{
+#content-four{
     display: none;
+    width: 70%;
+    margin-left: 40px;
+    float: right;
+}
+#content-five{
+    display: none;
+    width: 70%;
+    margin-left: 40px;
+    float: right;
+}
+#content-six{
+    display: none;
+    width: 70%;
+    margin-left: 40px;
+    float: right;
+}
+#content-seven{
+    display: none;
+    width: 70%;
+    margin-left: 40px;
+    float: right;
+}
+#content-eight{
+    display: none;
+    width: 70%;
+    margin-left: 40px;
+    float: right;
+}
+#content-nine{
+    display: none;
+    width: 70%;
+    margin-left: 40px;
+    float: right;
+}
+#content-ten{
+    display: none;
+    width: 70%;
+    margin-left: 40px;
+    float: right;
+}
+#content-eleven{
+    display: none;
+    width: 70%;
+    margin-left: 40px;
+    float: right;
+}
+#content-twelve{
+    display: none;
+    width: 70%;
+    margin-left: 40px;
+    float: right;
+}
+#content-thirteen{
+    display: none;
+    width: 70%;
+    margin-left: 40px;
+    float: right;
+}
+#content-fourteen{
+    display: none;
+    width: 70%;
+    margin-left: 40px;
+    float: right;
+}
+#content-fifteen{
+    display: none;
+    width: 70%;
+    margin-left: 40px;
+    float: right;
+}
+#content-sixteen{
+    display: none;
+    width: 70%;
+    margin-left: 40px;
+    float: right;
+}
+#content-seventeen{
+    display: none;
+    width: 70%;
+    margin-left: 40px;
+    float: right;
+}
+#content-eighteen{
+    display: none;
+    width: 70%;
+    margin-left: 40px;
+    float: right;
+}
+#content-nineteen{
+    display: none;
+    width: 70%;
+    margin-left: 40px;
+    float: right;
 }
 .h1tag{
     font-size: 40px;
