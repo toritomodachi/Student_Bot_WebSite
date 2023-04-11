@@ -12,6 +12,7 @@ a{
 }
 body{
     width: 1690px;
+    overflow-x: hidden;
 }
 header{
     width: 100%;
@@ -27,7 +28,7 @@ header{
     z-index: 4;   
 }
 header nav{
-    margin: 100px;
+    margin-right: 100px;
 }
 .header-logo{
     padding-left: 200px;
@@ -65,6 +66,33 @@ header nav{
 .content{
     width: 70%;
     float: right;
+}
+.content-two{
+    display: none;
+}
+.content-three{
+    display: none;
+}
+.h1tag{
+    font-size: 40px;
+}
+.Exp{
+    font-size: 30px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
+.explanation{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.U{
+    font-size: 30px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
+.use{
+    font-size: 20px;
+    margin-top: 10px;
 }
 .main{
     width: 180px;
