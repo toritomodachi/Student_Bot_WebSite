@@ -77,13 +77,18 @@ header nav{
     float: right;
     display: none;
 }
-
+.images{
+    margin-top: 10px;
+}
+.images > img{
+    width: 99%;
+}
 .h1tag{
     font-size: 40px;
 }
 .Exp{
     font-size: 30px;
-    margin-top: 200px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 .explanation{
