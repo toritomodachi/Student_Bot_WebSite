@@ -82,6 +82,7 @@ header nav{
 }
 .images > img{
     width: 99%;
+    border-radius: 10px;
 }
 .h1tag{
     font-size: 40px;
