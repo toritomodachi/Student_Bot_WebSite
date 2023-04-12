@@ -67,9 +67,17 @@ header nav{
 }
 .command{
     margin-left: 260px;
-    height: 840px;
+    height: 1050px;
     float: left;
-    background-color: #444;
+}
+.command li{
+    border: #000 solid 2px;
+    border-radius: 20px;
+    padding: 1px 10px 1px;
+    margin-top: 5px;
+}
+.command > a:hover{
+color: #000;
 }
 .content{
     width: 70%;
@@ -114,7 +122,7 @@ header nav{
     line-height: 44px;
 }
 .main > li > a:hover{
-    color: #fff;
+    color: #000;
 }
 footer{
     font-family: 'GmarketSansMedium';
