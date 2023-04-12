@@ -4,5 +4,7 @@ function doDisplay(page){
         x[i].style.display = "none";
         x[page-1].style.display = "block";
     }
+    
 }
+    
     
