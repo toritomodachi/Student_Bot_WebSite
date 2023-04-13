@@ -30,7 +30,7 @@ header{
     justify-content: space-between;
     align-items: center;
     white-space: nowrap; 
-    position:sticky;
+    position:fixed;
     top:0;
     z-index: 4;   
 }
@@ -66,6 +66,7 @@ header nav{
     font-size: 28px;
 }
 .command{
+    margin-top: 100px;
     margin-left: 260px;
     height: 1150px;
     float: left;
@@ -101,10 +102,20 @@ header nav{
     transform: translateY(-100%);
 }
 .content{
+    margin-top: 100px;
     width: 70%;
     margin-left: 40px;
     float: right;
     display: none;
+    animation: fadein 1s;
+}
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 .images{
     margin-top: 10px;
@@ -199,4 +210,28 @@ footer{
   }
   .more-btn{
     display: none;
+  }
+  @media screen and (min-width:320px) and (max-width:412px){
+    
+  }
+  @media screen and (min-width:412px) and (max-width:500px){
+    
+  }
+  @media screen and (min-width:500px) and (max-width:580px){
+    
+  }
+  @media screen and (min-width:600px) and (max-width:700px){
+    
+  }
+  @media screen and (min-width:768px) and (max-width:820px){
+    
+  }
+  @media screen and (min-width:900px) and (max-width:1024px){
+    
+  }
+  @media screen and (min-width:1024px) and (max-width:1200px){
+    
+  }
+  @media screen and (min-width:1200px) and (max-width:1440px){
+    
   }
