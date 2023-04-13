@@ -18,7 +18,8 @@ a{
     color: #2990d0;
 }
 body{
-    width: 1690px;
+    max-width: 100%;
+    max-height: 100%;
     overflow-x: hidden;
 }
 header{
@@ -512,8 +513,116 @@ footer{
     }
   }
   @media screen and (min-width:1024px) and (max-width:1200px){
+    .command{
+        margin: 0;
+        margin-left:100px;
+        margin-top: 100px;
+    }
+    .content{
+        width: 65%;
+    }
+    .mainMenu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 1024px;
+        font-size: 30px;
+        height: 100vh;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(100%);
+        background-color: rgba(14, 25, 38, 0.9);   
+    }
+    .mainMenu.active{
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(-100px);
+        transition: 0.3s;
+        
+    }
+    .mainMenu a{
+        display: block;
+        margin: auto;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    .more-btn{
+        display: block;
+        position: absolute;
+        right: 40px;
+        top: 8px;
+        width: 80px;
+        height: 80px;
+        border-radius: 8px;
+        border: none;
+        background-color: transparent;
+    }
+    .more-btn .icon{
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+        background: url(./img/mobile_menu.png) no-repeat center;
+        background-size: contain;
+    }
+    .more-btn.active .icon{
+        background: url(./img/mobile_menu.png) no-repeat center;
+        background-size: contain;
+    }
+    footer{
+        font-family: 'GmarketSansMedium';
+        bottom: 0;
+        width: 100%;
+        height: 150px;
+        background-color: darkgray;
+    }
+    .footer-logo > img{
+        width: 250px;
+        height: 100px;
+        float: left;
+    }
+    .copyright{
+        width: 40%;
+        text-align: left;
+        color: white;
+        font-size: 13px;
+    }
+    .footer-mainMenu {
+        width: 400px;
+        height: 40%; 
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        position:relative;
+        font-size: 15px;
+        color: #000000;
+      }
+      .footer-mainMenu > h3{
+        width:20%;
+        text-align: left;
+        color:#000000;
+      }
+      
+      .footer-subMenu{
+        width: 430px;
+        display:flex;
+        justify-content: space-between;
+        position:absolute;
+        top:55px;
+        z-index:1;
+        
+      }
+      .footer-subMenu > ul{
+        width:25%;
+        text-align: left;
+      }
+      .footer-subMenu > ul > li > a{
+        color: #333536;
+      }
+      .footer-subMenu > ul > li > a:hover{
+        color:#ffffff;
     
+      }
   }
   @media screen and (min-width:1200px) and (max-width:1440px){
-    
   }
