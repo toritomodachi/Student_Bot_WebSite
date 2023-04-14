@@ -1272,4 +1272,8 @@ footer{
       }
   }
   @media screen and (min-width:1200px) and (max-width:1440px){
+    .command{
+        margin-left: 150px;
+    }
+
   }

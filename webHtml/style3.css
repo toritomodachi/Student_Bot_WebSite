@@ -34,6 +34,9 @@ header{
     top:0;
     z-index: 4;   
 }
+i{
+    color: #fff;
+}
 header nav{
     margin-right: 100px;
 }
