@@ -68,6 +68,24 @@ header nav{
     color: #fff;
     font-size: 28px;
 }
+.lwh{
+    margin-top: 100px;
+    width: 100%;
+}
+.lwh > nav > ul > li{
+    width: 100px;
+    font-size: 100px;
+    margin-top: 500px;
+    margin-left: 47%;
+}
+.lcm{
+    width: 100%;
+}
+.lcm > nav > ul > li{
+    width: 100px;
+    font-size: 100px;
+    margin-top: 500px;
+}
 footer{
     font-family: 'GmarketSansMedium';
     bottom: 0;
