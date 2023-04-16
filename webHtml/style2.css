@@ -1275,5 +1275,8 @@ footer{
     .command{
         margin-left: 150px;
     }
+    .header-logo{
+        padding-right: 50px;
+    }
 
   }
