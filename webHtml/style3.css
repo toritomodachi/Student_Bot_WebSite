@@ -24,7 +24,7 @@ ul{
 }
 body{
     max-width: 100%;
-    height: 12000px;
+    height: 11400px;
     background-color: #000;
 }
 header{
@@ -81,7 +81,6 @@ header nav{
 .lwh > nav{
     width: 100%;
     font-size: 100px;
-    margin-left: 50%;
 }
 .lcm{
     width: 100%;
@@ -89,7 +88,6 @@ header nav{
 .lcm > nav{
     width: 100%;
     font-size: 100px;
-    margin-left: 50%;
 }
 .int{
     width: 100%;
@@ -102,29 +100,37 @@ header nav{
 .SubMenu{
     height: 500px;
 }
+
 footer{
     font-family: 'GmarketSansMedium';
-    bottom: 0;
     width: 100%;
     height: 150px;
     background-color: darkgray;
     float: left;
     
 }
+.footer-logo{
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    height: 0;
+}
 .footer-logo > img{
     width: 300px;
     height: 100px;
     float: left;
     padding-top: 0.3%;
-    margin-left: 16.5%;
-    margin-right: 5%;
+    margin-left: 95%;
+    margin-right: 60%;
 }
+
 .copyright{
     width: 24%;
     text-align: right;
     color: white;
     padding-left: 10%;
     font-size: 15px;
+    height: 40px;
 }
 .footer-mainMenu {
     width: 700px;
@@ -164,9 +170,12 @@ footer{
   .more-btn{
     display: none;
   }
+  .address{
+    height:950px;
+  }
 .lwh{
-    height: 6000px;
+    height: 5700px;
 }
 .lcm{
-    height: 6000px;
+    height: 5700px;
 }
