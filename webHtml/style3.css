@@ -21,7 +21,7 @@ ul{
 }
 body{
     max-width: 100%;
-    height: 11400px;
+    height: 14900px;
     background-color: #000;
 }
 header{
@@ -39,6 +39,7 @@ header{
 }
 i{
     color: #fff;
+    font-size: 50px;
 }
 header nav{
     margin-right: 100px;
@@ -71,26 +72,54 @@ header nav{
     color: #fff;
     font-size: 28px;
 }
-.lwh{
+.Introduction{
     margin-top: 100px;
+    width: 100%;
+    height: 850px;
+    color: #fff;
+    font-size: 50px;
+    float: left;
+    text-align: center;
+    padding-top: 50%;
+}
+.lwh{
     width: 50%;
+    float: left;
+    height: 50%;
+}
+.lwh-contents{
+    width: 50%;
+    float: right;
+    height: 50%;
 }
 .lcm{
     width: 50%;
+    float: left;
+    height: 50%;
+}
+.lcm-contents{
+    width: 50%;
+    float: right;
+    height: 50%;
+}
+img{
+    width: 50%;
+    height: 50%;
 }
 .int{
     width: 100%;
     float: left;
+    height: 600px;
+    padding-left: 40%;
 }
 section h2{
   color: #fff;
+  font-size: 28px;
 }
 .int-two{
-    width: 50%;
+    width: 100%;
     float: right;
-}
-.SubMenu{
-    height: 500px;
+    height: 600px;
 }
 
 footer{
@@ -162,12 +191,9 @@ footer{
   .more-btn{
     display: none;
   }
-  .address{
-    height:950px;
-  }
 .lwh{
-    height: 5700px;
+    height: 6600px;
 }
 .lcm{
-    height: 5700px;
+    height: 6600px;
 }
