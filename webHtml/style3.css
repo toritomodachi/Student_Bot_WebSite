@@ -7,6 +7,7 @@
 }
 html{
     width: 100%;
+    overflow-x: hidden;
 }
 *{
     margin: 0;
@@ -103,8 +104,8 @@ header nav{
     height: 50%;
 }
 img{
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 80%;
 }
 .int{
     width: 100%;
